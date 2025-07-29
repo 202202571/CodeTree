@@ -17,7 +17,7 @@ while True:
         day+=1
         hour=0
 
-if elapsed_time==0:
+if day>=a and hour>=b and minute>c:
     elapsed_time=-1
 
 print(elapsed_time)
