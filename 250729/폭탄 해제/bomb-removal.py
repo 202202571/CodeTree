@@ -8,7 +8,7 @@ class Bomb:
         return f"code : {self.code}\ncolor : {self.color}\nsecond : {self.candle}"
 
 unlock_code,color,candle = input().split()
-
+candle = int(candle)
 unlock_bomb = Bomb(unlock_code,color,candle)
 
 print(unlock_bomb)
