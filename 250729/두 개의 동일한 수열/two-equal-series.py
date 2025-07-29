@@ -11,7 +11,7 @@ for i in range(n):
     if sorted_a[i]==sorted_b[i]:
         count+=1
 
-if count==3:
+if count==n:
     print("Yes")
 else:
     print("No")
