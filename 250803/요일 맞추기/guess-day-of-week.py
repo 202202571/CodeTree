@@ -22,8 +22,8 @@ elif m1<m2:
 #달은 같은데 다른 일이 다른 경우
 else:
     diff = abs(d1-d2)
-    if index-diff>=0:
-        index = (index-diff)%7
+    if d1<=d2:
+        index = (index+diff)%7
     else:
         index = (7-(diff-index))%7
 
